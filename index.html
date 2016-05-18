@@ -4,10 +4,75 @@
 <head>
   <meta charset="utf-8">
   <title>Music History</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
-
-
+<!-- All content -->
+	<div class="allContent">
+	<!-- this is the header -->
+		<header>
+			<ul class="headNavBarList">
+				<li>View Music</li>
+				<li><a href="">Add Music</a></li>
+				<li><a href="">Profile</a></li>
+			</ul>
+		</header>
+	<!-- This is the lower left section -->
+		<content class="songInfo">
+			<label> Song Length
+				<input type="range" name="songLength" min="0" max="300" step="1" value="150">
+			</label>
+			<label> Artist
+				<select name="Artist">
+					<option value="Options">Options</option>
+				</select>
+			</label>
+			<label> Album
+				<select name="Album">
+					<optgroup value="Options">Options</optgroup>
+				</select>
+			</label>
+			<label> Genre
+				<div class="rightGenres">
+					<input type="checkbox" name="Rock">Rock
+					<input type="checkbox" name="Pop"> Pop
+					<input type="checkbox" name="Blues"> Blues
+				</div><div class="leftGenres">
+					<input type="checkbox" name="Classical"> Classical
+					<input type="checkbox" name="Jazz"> Jazz
+					<input type="checkbox" name="Hip-Hop"> Hip-Hop
+				</div>
+			</label>
+			<button name="filter">Filter</button>
+		</content>
+	<!-- This is the lower right section -->
+		<content class="songDisplay">
+			<h3 class="songName">Song Name</h3>
+				<ul>
+					<li>Artist name</li>
+					<li>Album name</li>
+					<li>Genre</li>
+				</ul>
+			<h3 class="songName">Song Name</h3>
+				<ul>
+					<li>Artist name</li>
+					<li>Album name</li>
+					<li>Genre</li>
+				</ul>
+			<h3 class="songName">Song Name</h3>
+				<ul>
+					<li>Artist name</li>
+					<li>Album name</li>
+					<li>Genre</li>
+				</ul>
+			<h3 class="songName">Song Name</h3>
+				<ul>
+					<li>Artist name</li>
+					<li>Album name</li>
+					<li>Genre</li>
+				</ul>
+		</content>
+	</div>	
 </body>
 </html>
