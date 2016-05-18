@@ -1,0 +1,61 @@
+div.allContent {
+	width: 70%;
+	margin: 0 auto;
+}
+
+header {
+	background-color:  #FFB4B0;
+	height: 15%;
+	margin-bottom: 15px;
+}
+
+div.songInfo {
+	background-color: #4DD7FA;
+	width: 20%;
+	min-height: 450px;
+	display: inline-block;
+}
+
+div.songDisplay {
+	background-color: #FEFAC0;
+	width: 78%;
+	min-height: 450px;
+	margin-left: 2%;
+	display: inline-block;
+}
+
+ul li:nth-child(2) {
+	border-left: solid 1px black;
+	padding: 0 5px;
+	border-right: solid 1px black;
+}
+
+input.rangeFinder {
+	width: 80%;
+}
+
+ul.headNavBarList, /* remove all bullets */
+.songDisplay ul {
+	list-style-type: none;
+}
+
+h3.songName {
+	margin-top: 0;
+}
+
+.songDisplay li {
+	display: inline-block;
+}
+
+/*Floats and displays*/
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.inline-block {
+	display: inline-block;
+}
