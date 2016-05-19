@@ -4,7 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>Music History</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="css/mainStylesIndex.css">
+  <link rel="stylesheet" type="text/css" href="css/otherStylesIndex.css">
+  <link rel="stylesheet" type="text/css" href="css/genStyles.css">
 </head>
 
 <body>
@@ -20,9 +22,6 @@
 		</header>
 	<!-- This is the lower left section -->
 		<div class="songInfo left">
-			<label> Song Length:
-				<input type="range" class="rangeFinder" name="songLength" min="0" max="300" step="1" value="150">
-			</label>
 			<label> Artist
 				<select name="Artist">
 					<option value="Options">Options</option>
@@ -30,43 +29,52 @@
 			</label>
 			<label> Album
 				<select name="Album">
-					<option value="Options">Options</optgroup>
+					<option value="Options">Options</option>
 				</select>
 			</label>
-			<label> Genre
-				<div class="rightGenres">
-					<input type="checkbox" name="Rock">Rock
-					<input type="checkbox" name="Pop"> Pop
-					<input type="checkbox" name="Blues"> Blues
-				</div><div class="leftGenres">
-					<input type="checkbox" name="Classical"> Classical
-					<input type="checkbox" name="Jazz"> Jazz
-					<input type="checkbox" name="Hip-Hop"> Hip-Hop
+			<!-- The genre check box columns -->
+			<label>Genre</label>
+			<!-- Left three genres -->
+				<div class="leftGenres left">
+					<label class="checkLabels">
+						<input type="checkbox" name="Rock">Rock</label>
+					<label class="checkLabels">
+						<input type="checkbox" name="Pop"> Pop</label>
+					<label class="checkLabels">
+						<input type="checkbox" name="Blues"> Blues</label>
 				</div>
-			</label>
-			<button name="filter">Filter</button>
-		</div>
+				<!-- Right three Genres -->
+				<div class="rightGenres left">
+					<label class="checkLabels">
+						<input type="checkbox" name="Classical"> Classical</label>
+					<label class="checkLabels">
+						<input type="checkbox" name="Jazz"> Jazz</label>
+					<label class="checkLabels">
+						<input type="checkbox" name="Hip-Hop"> Hip-Hop</label>
+				</div>
+			<button class="" name="filter">Filter</button>
+			</div>
 	<!-- This is the lower right section -->
 		<div class="songDisplay left">
-			<h3 class="songName">Song Name</h3>
+			<h2 class="songName">Song Name</h2>
 				<ul>
 					<li>Artist name</li>
 					<li>Album name</li>
 					<li>Genre</li>
 				</ul>
-			<h3 class="songName">Song Name</h3>
+			<h2 class="songName">Song Name</h2>
 				<ul>
 					<li>Artist name</li>
 					<li>Album name</li>
 					<li>Genre</li>
 				</ul>
-			<h3 class="songName">Song Name</h3>
+			<h2 class="songName">Song Name</h2>
 				<ul>
 					<li>Artist name</li>
 					<li>Album name</li>
 					<li>Genre</li>
 				</ul>
-			<h3 class="songName">Song Name</h3>
+			<h2 class="songName">Song Name</h2>
 				<ul>
 					<li>Artist name</li>
 					<li>Album name</li>

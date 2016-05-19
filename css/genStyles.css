@@ -1,0 +1,20 @@
+/*Floats and displays*/
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.block {
+	display: block;
+}
+
+.clear {
+	clear: both;
+}

@@ -1,0 +1,55 @@
+ul li:nth-child(2) { /* add borders to list element two */
+	border-left: solid 1px black;
+	padding: 0 5px;
+	border-right: solid 1px black;
+}
+
+input.rangeFinder,
+div.leftGenres,
+div.rightGenres { /* range finder width */
+	width: 50%;
+}
+
+div.songDisplay h2 {
+	margin-top: 1.5em;
+	margin-left: 1em;
+}
+
+ul.headNavBarList, /* remove all bullets */
+.songDisplay ul {
+	list-style-type: none;
+}
+
+.headNavBarList { /* for vert align of menu */
+		
+}
+
+h2.songName { 
+	margin-top: 0;
+}
+
+.songDisplay li { /*force inline-block behavior on song info*/
+	display: inline-block;
+}
+
+/*Below are styles to make the check boxes inline with the labels*/
+
+label.checkLabels {
+	display: block;
+}
+
+input[type="checkbox"] {
+	vertical-align: center;
+	display: inline-block;
+}
+
+/*dropdown boxes to be inline with labels*/
+
+select {
+	display: block;
+}
+
+/*Filter button styling*/
+button {
+	clear: both;
+}

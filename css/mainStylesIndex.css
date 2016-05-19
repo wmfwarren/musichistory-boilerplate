@@ -1,0 +1,25 @@
+div.allContent { /*this is the styling for the width of the page*/
+	width: 70%;
+	margin: 0 auto;
+}
+
+header {
+	background-color:  #FFB4B0;
+	height: 15%;
+	margin: 15px 0;
+}
+
+div.songInfo { /* This is the base styling for the left panel */
+	background-color: #4DD7FA;
+	width: 30%;
+	min-height: 450px;
+}
+
+div.songDisplay { /* This is the base styling for the right panel */
+	background-color: #FEFAC0;
+	color: #785616;
+	width: 68%;
+	min-height: 450px;
+	margin-left: 2%;
+	display: inline-block;
+}
