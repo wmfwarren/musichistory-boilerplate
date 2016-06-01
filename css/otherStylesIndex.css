@@ -26,6 +26,7 @@ ul.headNavBarList, /* remove all bullets */
 
 h2.songName { 
 	margin-top: 0;
+	font-weight: 200;
 }
 
 .songDisplay li { /*force inline-block behavior on song info*/
@@ -43,13 +44,21 @@ input[type="checkbox"] {
 	display: inline-block;
 }
 
+/*style for slider*/
+
+input[type="range"] {
+	display: block;
+	margin: 5px;
+}
+
 /*dropdown boxes to be inline with labels*/
 
 select {
 	display: block;
+	margin: 5px;
 }
 
 /*Filter button styling*/
 button {
-	clear: both;
+	margin: 0 auto;
 }

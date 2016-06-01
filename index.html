@@ -22,41 +22,46 @@
 		</header>
 	<!-- This is the lower left section -->
 		<div class="songInfo left">
-			<label> Artist
+			<label>Song Length:
+				<input type="range" name="songLength" min="0" max="360" step="1" value="180" >
+			</label>
+			<label> Artist:
 				<select name="Artist">
 					<option value="Options">Options</option>
 				</select>
 			</label>
-			<label> Album
+			<label> Album:
 				<select name="Album">
 					<option value="Options">Options</option>
 				</select>
 			</label>
 			<!-- The genre check box columns -->
-			<label>Genre</label>
+			<label>Genre:</label>
 			<!-- Left three genres -->
-				<div class="leftGenres left">
-					<label class="checkLabels">
-						<input type="checkbox" name="Rock">Rock</label>
-					<label class="checkLabels">
-						<input type="checkbox" name="Pop"> Pop</label>
-					<label class="checkLabels">
-						<input type="checkbox" name="Blues"> Blues</label>
-				</div>
-				<!-- Right three Genres -->
-				<div class="rightGenres left">
-					<label class="checkLabels">
-						<input type="checkbox" name="Classical"> Classical</label>
-					<label class="checkLabels">
-						<input type="checkbox" name="Jazz"> Jazz</label>
-					<label class="checkLabels">
-						<input type="checkbox" name="Hip-Hop"> Hip-Hop</label>
+				<div class="genres">	
+					<div class="leftGenres left">
+						<label class="checkLabels">
+							<input type="checkbox" name="Rock">Rock</label>
+						<label class="checkLabels">
+							<input type="checkbox" name="Pop"> Pop</label>
+						<label class="checkLabels">
+							<input type="checkbox" name="Blues"> Blues</label>
+					</div>
+					<!-- Right three Genres -->
+					<div class="rightGenres left">
+						<label class="checkLabels">
+							<input type="checkbox" name="Classical"> Classical</label>
+						<label class="checkLabels">
+							<input type="checkbox" name="Jazz"> Jazz</label>
+						<label class="checkLabels">
+							<input type="checkbox" name="Hip-Hop"> Hip-Hop</label>
+					</div>
 				</div>
 			<button class="" name="filter">Filter</button>
 			</div>
 	<!-- This is the lower right section -->
 		<div class="songDisplay left">
-			<h2 class="songName">Song Name</h2>
+			<!-- <h2 class="songName">Song Name</h2>
 				<ul>
 					<li>Artist name</li>
 					<li>Album name</li>
@@ -79,8 +84,9 @@
 					<li>Artist name</li>
 					<li>Album name</li>
 					<li>Genre</li>
-				</ul>
+				</ul> -->
 		</div>
 	</div>	
+	<script type="text/javascript" src="js/songs.js"></script>
 </body>
 </html>
