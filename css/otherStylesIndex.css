@@ -1,6 +1,9 @@
-ul li:nth-child(2) { /* add borders to list element two */
+ul li { /* add borders to list element two */
 	border-left: solid 1px black;
 	padding: 0 5px;
+}
+
+ul li:last-of-type { /* add borders to list element two */
 	border-right: solid 1px black;
 }
 

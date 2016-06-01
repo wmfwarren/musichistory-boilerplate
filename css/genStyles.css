@@ -18,3 +18,15 @@
 .clear {
 	clear: both;
 }
+
+.center {
+	margin: 0 auto;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.visible {
+	visibility: visible;
+}
