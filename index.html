@@ -15,13 +15,20 @@
 	<!-- this is the header -->
 		<header>
 			<ul class="headNavBarList">
-				<li class="inline-block">View Music</li>
-				<li class="inline-block"><a href="">Add Music</a></li>
-				<li class="inline-block"><a href="">Profile</a></li>
+				<!-- <li class="inline-block"><a href="">View Music</a></li> -->
+				<li class="inline-block"><a href="#">Profile</a></li>
+				<li  class="inline-block"><a href="#" id="songList">List Songs</a></li>
+				<li  class="inline-block"><a href="#" id="addMusic">Add Music</a></li>
 			</ul>
 		</header>
+		<inputfield id="addMusicInfo" class="hidden"> 
+			<input type="text" class="block center" name="songName" id="songName" placeholder="Song Title" value="">
+			<input type="text" class="block center" name="albumName" id="albumName" placeholder="Album Title" value="">
+			<input type="text" class="block center" name="artistName" id="artistName" placeholder="Artist Name" value="">
+			<button id="submitSongInfo" class="block center">Add</button>
+		</inputfield>
 	<!-- This is the lower left section -->
-		<div class="songInfo left">
+		<div id="songInfo" class="songInfo left">
 			<label>Song Length:
 				<input type="range" name="songLength" min="0" max="360" step="1" value="180" >
 			</label>
@@ -60,33 +67,12 @@
 			<button class="" name="filter">Filter</button>
 			</div>
 	<!-- This is the lower right section -->
-		<div class="songDisplay left">
-			<!-- <h2 class="songName">Song Name</h2>
-				<ul>
-					<li>Artist name</li>
-					<li>Album name</li>
-					<li>Genre</li>
-				</ul>
-			<h2 class="songName">Song Name</h2>
-				<ul>
-					<li>Artist name</li>
-					<li>Album name</li>
-					<li>Genre</li>
-				</ul>
-			<h2 class="songName">Song Name</h2>
-				<ul>
-					<li>Artist name</li>
-					<li>Album name</li>
-					<li>Genre</li>
-				</ul>
-			<h2 class="songName">Song Name</h2>
-				<ul>
-					<li>Artist name</li>
-					<li>Album name</li>
-					<li>Genre</li>
-				</ul> -->
+		<div id="songDisplay" class="songDisplay left">
+			<!-- Songs go here -->
 		</div>
 	</div>	
-	<script type="text/javascript" src="js/songs.js"></script>
+<!-- 	<script type="text/javascript" src="js/songs.js"></script> -->
+	<script type="text/javascript" src="js/views.js"></script>
+	<script type="text/javascript" src="js/addSongs.js"></script>
 </body>
 </html>
