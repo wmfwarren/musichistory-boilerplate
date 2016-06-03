@@ -1,0 +1,29 @@
+{
+  "songs": [
+    {
+      "title": "Bed of Lies",
+      "artist": "Nicki Minaj",
+      "album": "The Pinkprint"
+    },
+    {
+      "title": "Sorry",
+      "artist": "Beyonce",
+      "album": "Lemonade"
+    },
+    {
+      "title": "Ysabel's Table Dance",
+      "artist": "Charles Mingus",
+      "album": "Tijuana Moods"
+    },
+    {
+      "title": "Miami",
+      "artist": "The Shondes",
+      "album": "My Dear One"
+    },
+    {
+      "title": "Flash Light",
+      "artist": "Parliament",
+      "album": "Funkentelechy Vs. the Placebo Syndrome"
+    }
+  ]
+}
