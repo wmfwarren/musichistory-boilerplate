@@ -1,0 +1,54 @@
+{
+  "songs": [
+    {
+      "title": "Doll Parts",
+      "artist": "Hole",
+      "album": "Live Through This"
+    },
+    {
+      "title": "King Kunta",
+      "artist": "Kendrick Lamar",
+      "album": "To Pimp A Butterfly"
+    },
+    {
+      "title": "A Line in the Sand",
+      "artist": "P.J. Harvey",
+      "album": "The Hope Six Demolition Project"
+    },
+   {
+      "title": "FML",
+      "artist": "Kanye West",
+      "album": "The Life of Pablo"
+    },
+    {
+      "title": "Bury Our Friends",
+      "artist": "Sleater-Kinney",
+      "album": "No Cities to Love"
+    },
+    {
+      "title": "Bed of Lies",
+      "artist": "Nicki Minaj",
+      "album": "The Pinkprint"
+    },
+    {
+      "title": "Sorry",
+      "artist": "Beyonce",
+      "album": "Lemonade"
+    },
+    {
+      "title": "Ysabel's Table Dance",
+      "artist": "Charles Mingus",
+      "album": "Tijuana Moods"
+    },
+    {
+      "title": "Miami",
+      "artist": "The Shondes",
+      "album": "My Dear One"
+    },
+    {
+      "title": "Flash Light",
+      "artist": "Parliament",
+      "album": "Funkentelechy Vs. the Placebo Syndrome"
+    }
+  ]
+}
